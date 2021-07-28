@@ -1,7 +1,7 @@
 # hadoop-笔记
 关于学习hadoop的一些笔记
 
-
+[TOC]
 ## hdfs(Hadoop Distributed File System)
 
 ### 背景和一些设计思路
