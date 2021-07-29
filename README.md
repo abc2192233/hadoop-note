@@ -3,4 +3,4 @@
 
 ### 1. [hdfs笔记](HDFS/hdfs_note.md)
 ### 2. [zookeeper笔记](ZOOKEEPER/zookeeper_note.md)
-### 3. [flink笔记](flink_note.md)
+### 3. [flink笔记](FLINK/flink_note.md)
