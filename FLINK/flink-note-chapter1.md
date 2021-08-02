@@ -1,6 +1,6 @@
 ## 第一章 Apache Flink 基本介绍
 
-#### 大数据处理计算模式
+### 大数据处理计算模式
 1. 批量计算
 2. 流式计算
 3. 图计算
@@ -9,7 +9,7 @@
 ![image](frame_img/bigdatacalmode.png)
 <p align="center">bigdatacalmode</p>
 
-#### 流计算与批计算处对比
+### 流计算与批计算处对比
 1. 数据时效性不同
    - 流式计算实时、低延迟，批量计算非实时、高延迟
 2. 数据特征不同
@@ -20,7 +20,7 @@
 4. 运行方式不同
    - 流式计算的任务是持续进行的，批量计算的任务则是一次性完成
 
-#### 主流的流式框架
+### 主流的流式框架
 - Spark Streaming 属于Spark API扩展
 - 以固定时间间隔处理一段段的批处理作业（即微批处理）
 - 延迟性较高（秒级），但能搞保证消息传输既不丢失也不会重复
@@ -33,20 +33,20 @@
 - 具有非常高的吞吐量
 - 支持原生流处理
 
-#### why flink?
+### why flink?
 - 低延迟
 - 高吞吐
 - 准确性
 - 易用性
 
-#### 应用场景 实时数据仓库
+### 应用场景 实时数据仓库
 1. 数据实时清洗、归并、结构化
 2. 数仓的补充和优化
 
 ![image](frame_img/datacrash.png)
 <p align ="center">datacrash</p> 
 
-#### flink 核心特性
+### flink 核心特性
 1. 统一数据处理组件栈，处理不同类型的数据要求（Batch，Stream，MachineLearning，Graph）
 
 ![image](frame_img/dataflow.png)
